@@ -1,0 +1,14 @@
+.idea/
+
+### ENV ###
+/.env
+
+### Poetry ###
+/poetry.lock
+
+### Data ###
+data/*.*
+!data/.gitkeep
+
+data/video/*.*
+!data/video/.gitkeep

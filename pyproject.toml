@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "en-word-bot"
+version = "0.1.0"
+description = ""
+authors = ["Roman <slyusarrv@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "en-word-bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.19.0"
+python-dotenv = "^1.0.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
